@@ -6,7 +6,10 @@ function App() {
       <div className="container">
         <iframe
           style={{ width: "90vw", height: "90vh" }}
-          src="https://staging-giftcard.nailsoft.com/?merchant_id=681&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXJjaGFudElkIjoiNjgxIiwiZGlnaXRhbFR5cGUiOiJnaWZ0Y2FyZF9wbHVnaW4iLCJyb2xlIjoiR2lmdENhcmRXZWJzaXRlIiwibmJmIjoxNzE0MTA1MTE2LCJleHAiOjIwMjk2Mzc5MTYsImlhdCI6MTcxNDEwNTExNiwiaXNzIjoiaHR0cHM6Ly9zdGFnaW5nLWFwaS5uYWlsc29mdC5jb20vYXBpLyIsImF1ZCI6Ik5TX0FQSV9DbGllbnQifQ.dVGphB9tlkodQhO8TSA-Z65LzfZY6DTCmBcc1Ddvhgo"
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          src="https://staging-booking.nailsoft.com/login?merchant_id=1000&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXJjaGFudElkIjoiMTAwMCIsImRpZ2l0YWxUeXBlIjoiYm9va2luZ19wbHVnaW4iLCJyb2xlIjoiRGlnaXRhbFdlYnNpdGUiLCJuYmYiOjE3MDY3NzI5MTIsImV4cCI6MjAyMjM5MjExMiwiaWF0IjoxNzA2NzcyOTEyLCJpc3MiOiJodHRwczovL3N0YWdpbmctYXBpLm5haWxzb2Z0LmNvbS9hcGkvIiwiYXVkIjoiTlNfQVBJX0NsaWVudCJ9.ZTYxBSwgMI3eDX-Y_TmUA3eH6kVz5hz8tjw9QmjOwAk"
         ></iframe>
       </div>
     </>
